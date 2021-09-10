@@ -5,5 +5,5 @@ public class RandomSql {
 	public static String removeStudent = "DELETE FROM Student s WHERE s.student_id=:studentId";
 	public static String insertStudent = "insert into Student (student_username,first_name,last_name,gender) VALUES (:studentUsername,:firstName,:lastName,:gender)";
 	public static final String  updateStudentEmail = "update Student u set u.student_email = :studentEmail WHERE u.student_id = :studentId";
-
+// testing my commit
 }
